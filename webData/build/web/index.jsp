@@ -10,6 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
         <title>TADS</title>
     </head>
     <body>
@@ -20,8 +21,9 @@
             int soma = 10;
             soma += 3;
             
-            //Utilizando o objeto
+            //Instancia da classe Cliente
             Cliente objCliente = new Cliente();
+            //Utilizando o objeto
             objCliente.setNome("AlanPaulo");
         %>
         O nome do cliente é <%= objCliente.getNome()%>
