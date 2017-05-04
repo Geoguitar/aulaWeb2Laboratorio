@@ -24,7 +24,5 @@
     %>
     <%-- end web service invocation --%><hr/>
 
-        
-        
     </body>
 </html>
